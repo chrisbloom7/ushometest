@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Embedded HTML Video Test - MPEG-DASH</title>
+  <title>Embedded HTML5 Video Test - HLS</title>
   
   <!-- Enter a brief description of your page -->
   <meta name="description" content="">
@@ -14,7 +14,7 @@
   <!-- Add normalize.css which enables browsers to render all elements more consistently and in line with modern standards as it only targets particular styles that need normalizing -->
   <link href="./css/normalize.css" rel="stylesheet" media="all">
   <!-- For legacy support (IE 6/7, Firefox < 4, and Safari < 5) use normalize-legacy.css instead -->
-  <!--<link href="css/normalize-legacy.css" rel="stylesheet" media="all">-->
+  <!--<link href="./css/normalize-legacy.css" rel="stylesheet" media="all">-->
   
   <!-- Include the site stylesheet -->
   <link href="./css/styles.css" rel="stylesheet" media="all">
@@ -23,20 +23,7 @@
   <!--[if lt IE 9]><script src="./js/html5shiv-printshiv.js" media="all"></script><![endif]-->
 </head>
 <body>
-  <p><a href="./video">Switch to HLS</a></p>
-  <div>
-    <video id="videoPlayer" controls="true" width="100%"></video>
-  </div>
-  <script src="./js/dash.all.js"></script>
-  <script>
-  (function(){
-      var url = "http://54.210.233.233:1935/live/smil:ushometest.smil/manifest.mpd";
-      var context = new Dash.di.DashContext();
-      var player = new MediaPlayer(context);
-      player.startup();
-      player.attachView(document.querySelector("#videoPlayer"));
-      player.attachSource(url);
-  })();
-  </script>
+  <p><a href="./">Switch to MPEG-DASH</a></p>
+  <video id="videoObj" x-webkit-airplay="allow" controls="" alt="US Home Test SMIL" width="100%" src="http://54.210.233.233:1935/live/smil:ushometest.smil/playlist.m3u8">No HLS video available</video>
 </body>
 </html>

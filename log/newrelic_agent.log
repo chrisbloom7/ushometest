@@ -27,3 +27,29 @@
 [08/15/14 16:10:44 -0400 berner.home (94406)] INFO : Finished instrumentation
 [08/15/14 16:10:44 -0400 berner.home (94406)] INFO : Reporting to: https://rpm.newrelic.com/accounts/743112/applications/4545894
 [08/15/14 16:11:06 -0400 berner.home (94406)] INFO : Doing deferred dependency-detection before Rack startup
+[08/15/14 16:57:57 -0400 berner.home (97382)] INFO : Starting the New Relic agent in "production" environment.
+[08/15/14 16:57:57 -0400 berner.home (97382)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[08/15/14 16:57:57 -0400 berner.home (97382)] INFO : Reading configuration from config/newrelic.yml
+[08/15/14 16:57:57 -0400 berner.home (97382)] INFO : Environment: production
+[08/15/14 16:57:57 -0400 berner.home (97382)] INFO : No known dispatcher detected.
+[08/15/14 16:57:57 -0400 berner.home (97382)] INFO : Application: My Application
+[08/15/14 16:57:57 -0400 berner.home (97382)] INFO : Installing Net instrumentation
+[08/15/14 16:57:57 -0400 berner.home (97382)] INFO : Installing Sinatra instrumentation
+[08/15/14 16:57:57 -0400 berner.home (97382)] INFO : Installing deferred Rack instrumentation
+[08/15/14 16:57:57 -0400 berner.home (97382)] INFO : Installing Rack::Builder middleware instrumentation
+[08/15/14 16:57:57 -0400 berner.home (97382)] INFO : Finished instrumentation
+[08/15/14 16:57:58 -0400 berner.home (97382)] INFO : Reporting to: https://rpm.newrelic.com/accounts/743112/applications/4545894
+[08/15/14 16:58:30 -0400 berner.home (97382)] INFO : Doing deferred dependency-detection before Rack startup
+[08/15/14 16:59:40 -0400 berner.home (97590)] INFO : Starting the New Relic agent in "production" environment.
+[08/15/14 16:59:40 -0400 berner.home (97590)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[08/15/14 16:59:40 -0400 berner.home (97590)] INFO : Reading configuration from config/newrelic.yml
+[08/15/14 16:59:40 -0400 berner.home (97590)] INFO : Environment: production
+[08/15/14 16:59:40 -0400 berner.home (97590)] INFO : No known dispatcher detected.
+[08/15/14 16:59:40 -0400 berner.home (97590)] INFO : Application: My Application
+[08/15/14 16:59:40 -0400 berner.home (97590)] INFO : Installing Net instrumentation
+[08/15/14 16:59:40 -0400 berner.home (97590)] INFO : Installing Sinatra instrumentation
+[08/15/14 16:59:40 -0400 berner.home (97590)] INFO : Installing deferred Rack instrumentation
+[08/15/14 16:59:40 -0400 berner.home (97590)] INFO : Installing Rack::Builder middleware instrumentation
+[08/15/14 16:59:40 -0400 berner.home (97590)] INFO : Finished instrumentation
+[08/15/14 16:59:41 -0400 berner.home (97590)] INFO : Reporting to: https://rpm.newrelic.com/accounts/743112/applications/4545894
+[08/15/14 16:59:45 -0400 berner.home (97590)] INFO : Doing deferred dependency-detection before Rack startup

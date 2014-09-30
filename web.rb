@@ -4,8 +4,10 @@ configure :production do
   require 'newrelic_rpm'
 end
 
-set :public_folder, File.dirname(__FILE__) + '/static'
-
 get '/' do
   File.read(File.join('public', 'index.html'))
+end
+
+get '/video' do
+  File.read(File.join('public', 'video.html'))
 end
